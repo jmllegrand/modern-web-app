@@ -1,0 +1,21 @@
+{
+  "name": "modern-web-app",
+  "version": "1.0.0",
+  "description": "building app to play around with latest js technologies (react, webpack,...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "jmllegrand",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
