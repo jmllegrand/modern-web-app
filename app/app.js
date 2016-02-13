@@ -2,11 +2,11 @@
  * Created by jmlegrand on 13/02/16.
  */
 
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-var Hello = React.createClass({
-  render: function(){
+const Hello = React.createClass({
+  render () {
    return (
      <div>
        <p>Hello {this.props.name} !!! </p>

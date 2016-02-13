@@ -63,4 +63,30 @@ npm install --save-dev: install and write to package.json devDependencies field
 
 
 
+Session 4
+Virtual DOM, a lightweight DOM 
+Really fast 
+API for listening event for eg
+react 
+- a virtual dom 
+- 
+
+view on angular : betting on a technology
+smashing logic in the view 
+programming on the document itself is weird 
+
+
+Shadow DOM related to Web Component
+
+Session 5 in ES6
+block scope elements 
+- const 
+- let 
+
+const for eveything as a standard unless i mutate it 
+
+
+
+
+
 
