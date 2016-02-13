@@ -34,22 +34,29 @@ before rendering sth to the user
 in a static site, generate several static html files with prepopulate content and let react take over later
 
 
-to create a brand new project
+To create a brand new project
 
+'''
 npm init 
+'''
 
-
-This will create a package.json containing the metadata for the application
+This will create a package.json. The file contains metadata for the application
 
 2 scripts
 - "build" to run webpack
-- "start" script to run the application
+- "start" to run the application
+
+To execute the script 
+npm run name_of_the_script_step
+npm run start
 
 webpack the build tools used by facebook
 
 http://webpack.github.io/docs/tutorials/getting-started/
 
 http://survivejs.com/webpack_react/developing_with_webpack/
+
+https://robots.thoughtbot.com/setting-up-webpack-for-react-and-hot-module-replacement
 
 npm install --save : install and write to package.json dependencies field
 npm install --save-dev: install and write to package.json devDependencies field

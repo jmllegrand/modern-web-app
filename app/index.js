@@ -2,8 +2,10 @@
  * Created by jmlegrand on 13/02/16.
  */
 
-var component = require('./component');
-var app = document.createElement('div');
+//var component = require('./component');
 
-document.body.appendChild(app);
-app.appendChild(component());
+var component = require('./app');
+var mainDiv = document.createElement('div');
+
+document.body.appendChild(mainDiv);
+mainDiv.appendChild(component());
