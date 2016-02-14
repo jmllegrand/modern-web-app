@@ -23,6 +23,10 @@ module.exports = {
       }, {
         test: /\.css$/,
         loader: "style!css"
+      },
+      {
+        test: /\.styl$/,
+        loader: "css-loader!stylus-loader"
       }
     ]
   }

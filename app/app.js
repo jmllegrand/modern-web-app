@@ -2,9 +2,10 @@
  * Created by jmlegrand on 13/02/16.
  */
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import styles from './../styles/main.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+require ('./../styles/main.styl');
 
 const Hello = React.createClass({
   render () {
