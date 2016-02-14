@@ -83,7 +83,9 @@ block scope elements
 - const 
 - let 
 
-const for eveything as a standard unless i mutate it 
+const for eveything as a standard unless i mutate it
+add semanrtic to your code
+
 
 
 
